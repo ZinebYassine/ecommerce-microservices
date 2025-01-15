@@ -34,3 +34,12 @@ Ce projet propose une application e-commerce modulaire conçue avec une architec
 ## Conclusion
 Ce projet constitue une solution évolutive et moderne pour les plateformes e-commerce, assurant modularité, performance et facilité de maintenance.
 
+![capture produit](https://github.com/user-attachments/assets/c1e6c795-a93e-43f8-b8d7-ee5357c8cf0a)
+![listecmd](https://github.com/user-attachments/assets/9ca9435a-2163-455f-b121-773f34ab0bd4)
+![ajoutercmd](https://github.com/user-attachments/assets/6b585d59-b97e-454f-bf24-8ff9ec3c0fd9)
+![listcmd](https://github.com/user-attachments/assets/19a69e95-186f-480f-8065-e7b339e2ee68)
+
+
+
+
+
