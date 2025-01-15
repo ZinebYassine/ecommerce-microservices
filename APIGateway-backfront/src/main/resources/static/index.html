@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Gateway Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+<h1>Bienvenue sur l'API Gateway</h1>
+<p>Choisissez l'API que vous souhaitez tester :</p>
+
+<button onclick="redirectTo('/api/produitWhitelabel')">Produit Whitelabel</button>
+<button onclick="redirectTo('/api/commandeWhitelabel')">Commande Whitelabel</button>
+
+<script>
+    function redirectTo(path) {
+        // Rediriger vers l'API Gateway avec le chemin choisi
+        window.location.href = 'http://localhost:8082' + path;
+    }
+</script>
+</body>
+</html>
